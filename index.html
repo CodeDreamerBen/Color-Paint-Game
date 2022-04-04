@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Color Paint Game</title>
+		<h1 style="text-align: center;">Copy the picture give on the left, do it on the right, click each tiles to chance each color</h1>
+	</head>
+	<body>
+		<div style="display: flex">
+			<div class="model">
+				<button id="bone" style="background-color: yellow;" type="submit" disabled></button>
+				<button id="btwo" style="background-color: yellow;" type="submit" disabled></button>
+				<button id="bthree" style="background-color: yellow;" type="submit" disabled></button>
+				<button id="bfour" style="background-color: yellow;" type="submit" disabled></button>
+				<button id="bfive" style="background-color: yellow;" type="submit" disabled></button>
+				<button id="bsix" style="background-color: yellow;" type="submit" disabled></button>
+				<button id="bseven" style="background-color: yellow;" type="submit" disabled></button>
+				<button id="beight" style="background-color: yellow;" type="submit" disabled></button>
+				<button id="bnine" style="background-color: yellow;" ]type="submit" disabled></button>
+			</div>	
+			<h1>Paintings you have completed:</h1>
+			<input id="completed" value="0" type="text" readonly>
+			<h1 >Tiles color you have change:</h1>
+			<input id="color" value="0" type="text" readonly>
+			<div style="position: absolute; right: 10px;" class="model">
+				<button style="background-color: red;" onclick="changeOne(), check()" id="one" type="submit"></button>
+				<button style="background-color: red;" onclick="changeTwo(), check()" id="two" type="submit"></button>
+				<button style="background-color: red;" onclick="changeThree(), check()" id="three" type="submit"></button>
+				<button style="background-color: red;" onclick="changeFour(), check()" id="four" type="submit"></button>
+				<button style="background-color: red;" onclick="changeFive(), check()" id="five" type="submit"></button>
+				<button style="background-color: red;" onclick="changeSix(), check()" id="six" type="submit"></button>
+				<button style="background-color: red;" onclick="changeSeven(), check()" id="seven" type="submit"></button>
+				<button style="background-color: red;" onclick="changeEight(), check()" id="eight" type="submit"></button>
+				<button style="background-color: red;" onclick="changeNine(), check()" id="nine" type="submit"></button>
+			</div>
+		</div>
+	</body>
+</html>
